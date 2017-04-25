@@ -1,0 +1,7 @@
+<library path="lib/librealsense_person_follower_nodelet">
+  <class name="realsense_person_follower/PersonFollowerNodelet" type="realsense_person_follower::PersonFollowerNodelet" base_class_type="nodelet::Nodelet">
+  <description>
+  Intel(R) RealSense(TM) person follower nodelet.
+  </description>
+  </class>
+</library>

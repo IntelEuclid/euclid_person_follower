@@ -1,0 +1,31 @@
+<launch>
+	
+	<arg name="manager" default="person_follower_standalone_nodelet"/>
+	
+	<arg name="GoalZ" default="1.5" /> 
+	<arg name="ZScale" default="1.0" /> 
+	<arg name="XScale" default="2.0" />
+	<arg name="GoalX" default="0" />
+	<arg name="GoalInterval" default="0.01" />
+	<arg name="DumperDivisor"    default="20" />
+	<arg name="MaxRobotSpeed"    default="1" />
+	
+  	<node pkg="nodelet" type="nodelet" name="$(arg manager)"  args="manager" output="screen"/>
+  	
+  	<node pkg="nodelet" type="nodelet" name="realsense_person_follower"
+	args="load realsense_person_follower/PersonFollowerNodelet $(arg manager)
+       
+        ZScale $(arg ZScale)
+        XScale $(arg XScale)
+	      GoalZ $(arg GoalZ)
+	      GoalX $(arg GoalX)
+	
+	      DumperDivisor $(arg DumperDivisor)
+  
+        GoalInterval $(arg GoalInterval)
+	      MaxRobotSpeed $(arg MaxRobotSpeed)">
+	
+	</node>
+
+  
+</launch> 
