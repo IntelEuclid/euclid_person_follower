@@ -2,6 +2,10 @@
 
 This nodelet register to person tracking messages and publishes a goal for the robot movement control to handle.
 
+http://www.intel.com/Euclid_XXX
+
+http://wiki.ros.org/EuclidWiki_XXX
+
 ## Subscribed Topics
 
 	camera/person/detection_data (realsense_person::PersonDetection)
