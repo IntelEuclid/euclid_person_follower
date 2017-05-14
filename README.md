@@ -2,9 +2,9 @@
 
 This nodelet register to person tracking messages and publishes a goal for the robot movement control to handle.
 
-http://www.intel.com/Euclid_XXX
+[Intel® Euclid™ Community Site](http://www.euclidcommunity.intel.com).
 
-http://wiki.ros.org/EuclidWiki_XXX
+[Intel® Euclid™ Support Forum](http://www.intel.com/content/www/us/en/support/emerging-technologies/intel-euclid-development-kit.html).
 
 ## Subscribed Topics
 
