@@ -1,4 +1,4 @@
-# Intel&reg; Euclid&trade; Person follower sample.
+# Person follower sample for Intel&reg; Euclid&trade; .
 
 This nodelet register to person tracking messages and publishes a goal for the robot movement control to handle.
 
